@@ -17,7 +17,7 @@ Windows, Linux, headless browsers, remote browser tunnels, non-English X interfa
 ## Install on a Mac
 
 ```bash
-git clone https://github.com/NguyenLongVu-FE/X-CLI.git
+git clone https://github.com/ItsNLVu/X-CLI.git
 cd X-CLI
 npx -y pnpm@11.22.0 install --frozen-lockfile
 npx -y pnpm@11.22.0 test:audit
@@ -112,7 +112,7 @@ Bulk previews expire after fifteen minutes. Execution is sequential with at leas
 Install the bundled cross-agent skill:
 
 ```bash
-npx -y skills add NguyenLongVu-FE/X-CLI --skill x-cli
+npx -y skills add ItsNLVu/X-CLI --skill x-cli
 ```
 
 The skill teaches agents the exact command contract and approval boundaries. Installing it does not grant permission for live writes.
